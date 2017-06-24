@@ -1,0 +1,9 @@
+void task_3(){
+	cout<<"this is my task header"<<endl;
+	rt:
+		{
+		cout<<"this is my real-time processign"<<endl;
+		}
+
+	cout<<"my task endes"<<endl;
+}

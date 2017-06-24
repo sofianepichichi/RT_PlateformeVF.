@@ -1,0 +1,98 @@
+void
+task_1 ()
+{
+  cout << "this is my task header" << endl;
+  int index = 1;
+  int period = 32536;
+  int deadline = 60;
+  int nbrIt = 0 int priority = -906447292;
+  int priority = 1;
+
+
+  struct timespec Begin, End;
+  while (nbrIt < -906447292) {
+    clock_gettime (CLOCK_REALTIME, &Begin);
+    struct timespec period_timespec = ms_tospec (Period);
+    struct timespec NextActivation = timespec_add (&Begin, &period_timespec);
+    struct timespec deadline_timespec = ms_tospec (Deadline);
+    struct timespec Dij = timespec_add (&Begin, &deadline_timespec);
+    {
+      cout << "this is my real-time processign" << endl;
+    }
+    clock_gettime (CLOCK_REALTIME, &End);
+    struct timespec responseTime = timespec_sub (&End, &Begin);
+    cout << i << "\t" << spec_toms (responseTime) << endl;
+    int DR = timespec_cmp (&Dij, &End);
+    if (DR == -1)
+      MissedDeadlines += 1;
+    clock_nanosleep (CLOCK_REALTIME, TIMER_ABSTIME, &NextActivation, NULL);
+  }
+
+  cout << "my task endes" << endl;
+}
+
+void
+task_2 ()
+{
+  cout << "this is my task header" << endl;
+  int index = 2;
+  int period = 32536;
+  int deadline = 60;
+  int nbrIt = 0 int priority = 1769136012;
+  int priority = 1;
+
+
+  struct timespec Begin, End;
+  while (nbrIt < 1769136012) {
+    clock_gettime (CLOCK_REALTIME, &Begin);
+    struct timespec period_timespec = ms_tospec (Period);
+    struct timespec NextActivation = timespec_add (&Begin, &period_timespec);
+    struct timespec deadline_timespec = ms_tospec (Deadline);
+    struct timespec Dij = timespec_add (&Begin, &deadline_timespec);
+    {
+      cout << "this is my real-time processign" << endl;
+    }
+    clock_gettime (CLOCK_REALTIME, &End);
+    struct timespec responseTime = timespec_sub (&End, &Begin);
+    cout << i << "\t" << spec_toms (responseTime) << endl;
+    int DR = timespec_cmp (&Dij, &End);
+    if (DR == -1)
+      MissedDeadlines += 1;
+    clock_nanosleep (CLOCK_REALTIME, TIMER_ABSTIME, &NextActivation, NULL);
+  }
+
+  cout << "my task endes" << endl;
+}
+
+void
+task_3 ()
+{
+  cout << "this is my task header" << endl;
+  int index = 3;
+  int period = 32536;
+  int deadline = 50;
+  int nbrIt = 0 int priority = 1759796680;
+  int priority = 0;
+
+
+  struct timespec Begin, End;
+  while (nbrIt < 1759796680) {
+    clock_gettime (CLOCK_REALTIME, &Begin);
+    struct timespec period_timespec = ms_tospec (Period);
+    struct timespec NextActivation = timespec_add (&Begin, &period_timespec);
+    struct timespec deadline_timespec = ms_tospec (Deadline);
+    struct timespec Dij = timespec_add (&Begin, &deadline_timespec);
+    {
+      cout << "this is my real-time processign" << endl;
+    }
+    clock_gettime (CLOCK_REALTIME, &End);
+    struct timespec responseTime = timespec_sub (&End, &Begin);
+    cout << i << "\t" << spec_toms (responseTime) << endl;
+    int DR = timespec_cmp (&Dij, &End);
+    if (DR == -1)
+      MissedDeadlines += 1;
+    clock_nanosleep (CLOCK_REALTIME, TIMER_ABSTIME, &NextActivation, NULL);
+  }
+
+  cout << "my task endes" << endl;
+}

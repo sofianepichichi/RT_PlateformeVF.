@@ -1,0 +1,23 @@
+task_1:
+periode = 80
+deadline = 60
+scheduler = 1
+nbrIt = 5
+priority = 10
+affinity = 1
+
+task_2:
+periode = 60
+deadline = 60
+scheduler = 1
+nbrIt = 0
+priority = 10
+affinity = 1
+
+task_3:
+periode = 110
+deadline = 50
+scheduler = 1
+nbrIt = 120
+priority = 4
+affinity = 0

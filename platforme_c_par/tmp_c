@@ -1,0 +1,27 @@
+void * task_3(void *arg){
+
+struct periodique *cp = (struct periodique *) arg;
+long tab1 [maxsize] ; 
+long tab2 [maxsize] ; 
+long tab3 [maxsize] ;
+
+
+
+	for (int i=0; i<maxsize;i++)
+	{
+
+	  tab1[i] = i+7;
+	  tab2[i] = 10*i;
+
+	}
+
+	rt:
+		{
+
+          for (int j=0;j<maxsize;j++)
+  	  {
+    	  	tab3[j] =tab1[j] + tab2[j];
+    	  }
+		}
+
+}
